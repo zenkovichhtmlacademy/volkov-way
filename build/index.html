@@ -10,7 +10,10 @@
 <body class="page-body">
   <header class="page-header">
     <section class="page-header navigation">
-      <img src="../../img/logo-desktop.png" width="58" height="22">
+      <picture>
+
+        <img class="navigation__logo" src="../../img/logo-desktop.png" width="58" height="22">
+      </picture>
       <ul class="navigation__list no-bulites">
         <li class="navigation__item">
           <a class="navigation__link">О путешествии</a>
@@ -22,13 +25,18 @@
           <tell class="navigation__tell">+7 (499) -784-684-46
         </tell></li>
       </ul>
+      <button class="navigation__button">
+        <span class="visually-hidden">Меню</span>
+      </button>
     </section>
     <section class="page-header promo">
-      <h2 class="promo__heading">Путешествие по Европе</h2>
-      <p class="promo__description">В этом туре вы откроете для себя Европу
-        в новом свете. Вас ждет: море, горы, а также потрясающая красота природы.
-      </p>
-      <a class="promo__button" href="#">смотреть тур</a>
+      <div class="promo_container">
+        <h2 class="promo__heading">Путешествие по Европе</h2>
+        <p class="promo__description">В этом туре вы откроете для себя Европу
+          в новом свете. Вас ждет: море, горы, а также потрясающая красота природы.
+        </p>
+        <a class="promo__button" href="#">смотреть тур</a>
+      </div>
     </section>
   </header>
 </body>
