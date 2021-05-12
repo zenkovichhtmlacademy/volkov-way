@@ -1,13 +1,18 @@
 .promo {
   position: relative;
   background-image: url("../img/background-header.jpg");
-  width: 100%;
-  height: 1552px;
+  height: 860px;
   background-repeat: no-repeat;
 
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     height: 344px;
     background-size: 100%;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    background-image: url("../img/background-header-mobile.jpg");
+    background-size: 100%;
+    height: 235px;
   }
 }
 
@@ -16,11 +21,10 @@
   display: flex;
   flex-direction: column;
   left: 56%;
-  top: 12%;
+  top: 21.5%;
   gap: 13px;
 
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    width: 100%;
     height: 100%;
     top: 21%;
     left: 3px;
@@ -28,6 +32,16 @@
     align-content: center;
     overflow: auto;
     gap: 8px;
+    width: 99vw;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    left: 1%;
+    top: 34.3%;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    width: 99vw;
   }
 }
 
@@ -46,6 +60,14 @@
     line-height: 25px;
     width: 398px;
   }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    font-size: 24px;
+    line-height: 150%;
+    width: 288px;
+    text-align: center;
+    letter-spacing: 0;
+  }
 }
 
 .promo__description {
@@ -59,6 +81,14 @@
     width: 398px;
     text-align: center;
     margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    width: 288px;
+    color: #2c2e3f;
+    margin-left: -6px;
+    margin-top: 88px;
+    text-align: center;
   }
 }
 
@@ -87,6 +117,10 @@
     @media screen and (min-width: 768px) and (max-width: 1023px) {
       left: 195px;
     }
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      left: 233px;
+    }
   }
 
   &:hover {
@@ -100,5 +134,14 @@
     font-size: 10px;
     margin-left: -6px;
     width: 110px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    padding: 19px 100px 19px 40px;
+    margin-top: -8px;
+    height: 12px;
+    font-size: 10px;
+    margin-left: -4px;
+    width: 148px;
   }
 }

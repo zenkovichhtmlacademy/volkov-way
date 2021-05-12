@@ -11,23 +11,35 @@
   <header class="page-header">
     <section class="page-header navigation">
       <picture>
-
         <img class="navigation__logo" src="../../img/logo-desktop.png" width="58" height="22">
       </picture>
       <ul class="navigation__list no-bulites">
         <li class="navigation__item">
-          <a class="navigation__link">О путешествии</a>
+          <a class="navigation__link" href="#">О путешествии</a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link">Цены</a>
+          <a class="navigation__link" href="#">Цены</a>
         </li>
         <li class="navigation__item">
-          <tell class="navigation__tell">+7 (499) -784-684-46</a>
+          <a class="navigation__tell" href="tel:+749978468446">+7 (499) -784-684-46</a>
         </li>
       </ul>
       <button class="navigation__button">
         <span class="visually-hidden">Меню</span>
       </button>
+      <button class="navigation__button-close">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+    </section>
+    <section class="page-header mobile-menu page-header--none">
+      <ul class="mobile-menu__list no-bulites">
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#">О путешествии</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#">Цены</a>
+        </li>
+      </ul>
     </section>
     <section class="page-header promo">
       <div class="promo_container">
@@ -39,5 +51,90 @@
       </div>
     </section>
   </header>
+  <main class="page-main">
+    <section class="page-main places-visit">
+      <h2 class="places-visit__heading">Места<br>посещения</h2>
+      <p class="places-visit__paragraph">Вы можете выбрать
+        полный тур или <br>частичный, с посещением первых 3 мест</p>
+      <ul class="places-visit__list no-bulites">
+        <li class="places-visit__item">
+          <a class="places-visit__link">
+            <div class="places-visit__block conteiner">
+              <img class="places-visit__image" src="../img/grecia.jpg">
+              <span class="places-visit__span">Греция</span>
+            </div>
+          </a>
+        </li>
+        <li class="places-visit__item">
+          <a class="places-visit__link">
+            <div class="places-visit__block conteiner">
+              <img class="places-visit__image" src="../img/albania.jpg">
+              <span class="places-visit__span">Албания</span>
+            </div>
+          </a>
+        </li>
+        <li class="places-visit__item">
+          <a class="places-visit__link">
+            <div class="places-visit__block conteiner">
+              <img class="places-visit__image" src="../img/makedonia.jpg">
+              <span class="places-visit__span">Македония</span>
+            </div>
+          </a>
+        </li>
+        <li class="places-visit__item places-visit__item--grecia">
+          <a class="places-visit__link">
+            <div class="places-visit__block conteiner">
+              <img class="places-visit__image" src="../img/chrnogoria.jpg">
+              <span class="places-visit__span">Черногория</span>
+            </div>
+          </a>
+        </li>
+        <li class="places-visit__item places-visit__item--horvatia">
+          <a class="places-visit__link">
+            <div class="places-visit__block conteiner">
+              <img class="places-visit__image" src="../img/horvatia.jpg">
+              <span class="places-visit__span">Хорватия</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="page-main country-description">
+      <ul class="country-description__list no-bulites">
+        <li class="country-description__item">
+          <a class="country-description__link">Греция</a>
+        </li>
+        <li class="country-description__item">
+          <a class="country-description__link">Албания</a>
+        </li>
+        <li class="country-description__item">
+          <a class="country-description__link">Македония</a>
+        </li>
+        <li class="country-description__item">
+          <a class="country-description__link">Черногория</a>
+        </li>
+        <li class="country-description__item">
+          <a class="country-description__link">Хорватия</a>
+        </li>
+      </ul>
+      <div class="country-description__block">
+        <div class="country-description__country">
+          <h2 class="country-description__heading">Греция</h2>
+          <span class="country-description__tour">На севере Греции
+            находится один из крупнейших комплексов монастырей,
+            расположенных на вершинах скал. Название его «Метеора»
+            буквально переводится как «висящие в воздухе».
+            Этот монастырь основная цель нашего путешествия
+            в Греции. После покарения скал из песчанника
+            и обломочной горной породы, достигающих в
+            высоту 600 метров, наградой будет неописуемая
+            красота природы и атмосфера, царящая в
+            монастырях Метеоры. </span>
+          <a class="country-description__button">Купить тур сейчас</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/main.js" type="module"></script>
 </body>
 </html>

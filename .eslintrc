@@ -1,7 +1,5 @@
-root: true
-
-env:
-  browser: true
-
-extends:
-  "htmlacademy/es5"
+module.exports = {
+  "parserOptions": {
+      "ecmaVersion": 6
+  }
+};

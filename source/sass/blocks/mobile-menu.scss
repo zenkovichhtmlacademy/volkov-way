@@ -1,0 +1,38 @@
+.mobile-menu {
+  height: 568px;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+  }
+}
+
+.mobile-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 83px;
+}
+
+.mobile-menu__item {
+  position: relative;
+  background-color: #fbf8f8;
+  min-height: 60px;
+  display: flex;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/arrow-down.svg");
+    top: 18px;
+    left: 279px;
+  }
+}
+
+.mobile-menu__link {
+  align-self: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  margin-left: 16px;
+}

@@ -1,0 +1,51 @@
+.country-description__list {
+  position: relative;
+  display: flex;
+  gap: 98px;
+  padding-top: 11px;
+  border-bottom: 1px solid rgba(44, 46, 63, 0.3);
+  height: 40px;
+  width: 900px;
+}
+
+.country-description__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.country-description__heading {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 90px;
+  letter-spacing: -1.245px;
+}
+
+.country-description__country {
+  display: flex;
+  flex-direction: column;
+  width: 366px;
+  padding-top: 45px;
+}
+
+.country-description__tour {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.466667px;
+  color: rgba(44, 46, 63, 0.7);
+  padding-top: 5px;
+}
+
+.country-description__button {
+  width: 250px;
+  height: 45px;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #fe7865;
+}
