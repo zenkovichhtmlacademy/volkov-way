@@ -1,0 +1,38 @@
+.next-jorney__section {
+  border-right: 1px solid #d7d9df;
+  width: 386px;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 415px;
+  }
+}
+
+.next-jorney__heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #141517;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-left: 21px;
+    margin-top: -4px;
+  }
+}
+
+.next-jorney__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 26px 26px 26px 28px 26px;
+  width: 381px;
+  padding-top: 6px;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-left: 21px;
+  }
+}
+
+.next-jorney__item {
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(20, 21, 23, 0.5);
+}

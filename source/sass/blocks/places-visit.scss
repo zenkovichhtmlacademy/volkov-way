@@ -13,6 +13,41 @@
     height: 4px;
     background-image: url("../../img/border-place.svg");
     top: 189px;
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 52px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 133px;
+    letter-spacing: -.245px;
+    margin-left: 0;
+  }
+}
+
+.places-visit__heading-br {
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    display: none;
   }
 }
 
@@ -22,31 +57,76 @@
   letter-spacing: -0.466667px;
   color: rgba(44, 46, 63, 0.7);
   padding-top: 18px;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    text-align: center;
+    padding-top: 0;
+    margin-top: -6px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    text-align: center;
+    margin-top: -17px;
+  }
 }
 
 .places-visit__list {
   padding-top: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 1230px;
   justify-content: center;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 740px;
+    padding-top: 22px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    width: 320px;
+    flex-direction: column;
+    margin-left: -14px;
+    margin-top: -38px;
+  }
 }
 
 .places-visit__item {
   margin-right: 60px;
   margin-bottom: 94px;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-right: 0;
+    margin-left: 29px;
+    margin-bottom: 13px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-bottom: 28px;
+  }
 }
 
 .places-visit__item--grecia {
   margin-right: 120px;
   margin-bottom: 0;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-right: 0;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-right: 90px;
+    margin-left: 30px;
+    margin-bottom: 28px;
+  }
 }
 
 .places-visit__item--horvatia {
   margin-bottom: 0;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-bottom: 79px;
+    margin-top: 10px;
+  }
 }
 
 .places-visit__span {
@@ -54,7 +134,7 @@
   top: 84%;
   left: 19.3%;
   color: #2c2e3f;
-  background-color: #fff;
+  background-color: #ffffff;
   width: 215px;
   padding-top: 19px;
   height: 45px;
@@ -63,4 +143,17 @@
   line-height: 29px;
   text-align: center;
   letter-spacing: -0.415px;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    left: 12.3%;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    left: 14.3%;
+  }
+}
+
+.places-visit__block {
+  width: 260px;
+  margin: 0 auto;
 }
