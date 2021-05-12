@@ -1,3 +1,11 @@
 .page-header {
   min-height: 1px;
 }
+
+.page-header--active {
+  display: block;
+}
+
+.page-header--none {
+  display: none;
+}

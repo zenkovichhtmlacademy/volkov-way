@@ -1,0 +1,32 @@
+.corparate__heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #141517;
+  margin-left: 46px;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    text-align: center;
+    width: 768px;
+    margin-left: 0;
+    margin-top: 20px;
+    padding-top: 30px;
+    border-top: 1px solid#d7d9df;
+  }
+}
+
+.corparate__parafrapf {
+  font-size: 14px;
+  line-height: 171%;
+  color: rgba(20,21,23,.5);
+  margin-left: 47px;
+  padding-top: 7px;
+  width: 320px;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    text-align: center;
+    width: 702px;
+    margin-left: 32px;
+    margin-top: 0;
+  }
+}

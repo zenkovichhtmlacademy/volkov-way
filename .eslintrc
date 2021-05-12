@@ -1,7 +1,11 @@
-root: true
+{
+  "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module",
+      "allowImportExportEverywhere": true
+  },
 
-env:
-  browser: true
-
-extends:
-  "htmlacademy/es5"
+  "env": {
+      "es6": true
+  }
+}

@@ -1,0 +1,14 @@
+.page-footer {
+  margin: 0 auto;
+  width: 1140px;
+  padding-top: 10px;
+  padding-top: 78px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    display: flex;
+    width: 768px;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,117 @@
+.question {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 12px;
+  padding-bottom: 78px;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    flex-direction: column;
+    width: 743px;
+    margin-left: 0;
+    margin-top: 122px;
+  }
+}
+
+.question__container {
+  width: 656px;
+  height: 315px;
+  background: #ffffff;
+  box-shadow: 0 4px 30px rgba(41, 54, 66, 0.1);
+  border-radius: 5px;
+  margin-left: -330px;
+  margin-top: 70px;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-top: -393px;
+    margin-left: 57px;
+  }
+}
+
+.question__heading {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.question__span {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #141517;
+  margin-top: -11px;
+}
+
+.question__input {
+  padding-left: 18px;
+  width: 253px;
+  height: 49px;
+}
+
+.question__form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 658px;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+.question__input--tell {
+  padding-left: 50px;
+  width: 212px;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #141517;
+    letter-spacing: 0.8px;
+  }
+}
+
+.question__decoration {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "*";
+    font-size: 14px;
+    line-height: 17px;
+    color: #141517;
+    left: 14px;
+    top: 8px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "+7";
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #141517;
+    left: 24px;
+    top: 17px;
+  }
+}
+
+.question__buton {
+  width: 176px;
+  height: 50px;
+  background-color: #fe7865;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 246px;
+    height: 48px;
+  }
+}
